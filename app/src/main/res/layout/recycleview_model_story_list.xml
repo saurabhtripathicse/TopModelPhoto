@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    app:cardBackgroundColor="@color/pink1"
+    app:cardElevation="@dimen/margin_2dp"
+    app:cardUseCompatPadding="true"
+    android:animateLayoutChanges="true">
+
+    <LinearLayout
+        android:id="@+id/linearlayout_country_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/margin_10dp">
+
+            <com.hellsingorg.topmodelphoto.CustomClass.CircleImageView
+                android:id="@+id/imageViewModelStory"
+                android:layout_width="@dimen/flag_img_size4"
+                android:layout_height="@dimen/flag_img_size3"
+                android:layout_centerVertical="true"
+                android:scaleType="centerCrop"
+                android:layout_marginBottom="@dimen/margin_5dp"
+                tools:src="@color/social_twitter_color"
+                android:layout_marginRight="@dimen/margin_10dp"/>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/relativeview_modelStorylist"
+                android:layout_toRightOf="@+id/imageViewModelStory"
+                android:layout_centerVertical="true">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView_ModelStoryName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="NAME OF MODEL"
+
+                            android:textAllCaps="true"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text25sp"
+                            android:textStyle="bold"
+                            android:maxLines="1"/>
+                        <TextView
+                            android:id="@+id/textView_ModelStoryHeading"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            tools:text="Heading"
+                            android:textColor="@color/white"
+                            android:textSize="@dimen/text20sp"
+                            android:maxLines="1"/>
+
+                    </LinearLayout>
+
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

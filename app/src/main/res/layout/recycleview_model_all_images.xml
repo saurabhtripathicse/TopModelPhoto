@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageModelall"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/pink6"
+        android:paddingRight="@dimen/margin_2dp"
+        android:paddingLeft="@dimen/margin_2dp"
+        android:paddingTop="@dimen/margin_2dp"/>
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/popup_window"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="bottom|center"
+    android:background="@color/pink1"
+    android:padding="10dp"
+    android:layout_margin="@dimen/margin_5dp"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/txt_backup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/share"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Share"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:background="@color/white"></view>
+
+    <TextView
+        android:id="@+id/txt_detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/clouddownload"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Download"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+    <view
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_1dp"
+        android:background="@color/white"></view>
+
+    <TextView
+        android:id="@+id/txt_open"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/wallpaper"
+        android:drawablePadding="15dp"
+        android:gravity="center_vertical"
+        android:padding="15dp"
+        android:text="Set as Wallpaper"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</LinearLayout>

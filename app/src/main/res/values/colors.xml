@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff90a3</color>
+    <color name="colorPrimaryDark">#FF69B4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorPrimaryDarkBlack">#FF1493</color>
+    <color name="colorPrimaryLight">#FFCDD2</color>
+
+    <color name="pink1">#FFC0CB</color>
+    <color name="pink2">#FFB6C1</color>
+    <color name="pink3">#FF69B4</color>
+    <color name="pink4">#FF1493</color>
+    <color name="pink5">#DB7093</color>
+    <color name="pink6">#C71585</color>
+    <color name="pink7">#ff71e0</color>
+    <color name="white">#ffffff</color>
+    <color name="social_twitter_color">#07b0ef</color>
+
+    <color name="transparent_black_1">#11000000</color>
+    <color name="transparent_black_2">#22000000</color>
+    <color name="transparent_black_3">#33000000</color>
+    <color name="transparent_black_4">#44000000</color>
+    <color name="transparent_black_5">#55000000</color>
+    <color name="transparent_black_6">#66000000</color>
+    <color name="transparent_black_7">#77000000</color>
+    <color name="transparent_black_8">#88000000</color>
+    <color name="transparent_black_9">#99000000</color>
+    <color name="transparent_black_10">#aa000000</color>
+    <color name="transparent_black_11">#bb000000</color>
+    <color name="transparent_black_12">#cc000000</color>
+    <color name="transparent_black_13">#dd000000</color>
+    <color name="transparent_black_14">#ee000000</color>
+    <color name="transparent_black_15">#ff000000</color>
+    <color name="transparent_black_16">#80000000</color>
+    <color name="transparent_white_17">#A0000000</color>
+    <color name="transparent_pink_1">#d4ffc0cb</color>
+    <color name="orange">#f77c7c</color>
+    <color name="pink_trans">#ceff90a3</color>
+    <color name="actualoragnge">#ff8400</color>
+
+</resources>
